@@ -2,10 +2,9 @@ import React from "react";
 import { Button, Container, TextField } from "@material-ui/core";
 
 export const Names = (props) => {
-  //   console.log(props);
+  // console.log(props);
   const { firstName, lastName, nickName } = props.formData;
   const { setForm } = props;
-  //   console.log(firstName);
   //   console.log(lastName);
   //   console.log(nickName);
   return (
